@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  desktop_webview_window: ^0.2.3
 
 dev_dependencies:
   flutter_test:
