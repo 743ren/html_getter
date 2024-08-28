@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:desktop_webview_window/desktop_webview_window.dart';
 
@@ -30,7 +31,6 @@ class Request {
           html = null;
         }
         completer.complete(html);
-        webview!.close();
       }
     });
 
